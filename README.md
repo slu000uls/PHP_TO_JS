@@ -6,7 +6,9 @@
 
 ## Example Usage
 
-php
+
+
+```php
 <?php
 //include class
 include "./php_to_js.php";
@@ -17,4 +19,7 @@ $php_to_js = new php_to_js();
 $php_to_js->displayVariable("fromphp","this value its from php");
 
 ?>
+```
+Now If you console.log(fromphp) you can see the text you have in php: **this value its from php**
+
 This example demonstrates how to use the `php_to_js` class to convert a PHP variable to a JavaScript variable and output it using the `console.log()` function in JavaScript.
